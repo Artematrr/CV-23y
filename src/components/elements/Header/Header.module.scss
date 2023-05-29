@@ -3,7 +3,7 @@
 .container {
   display: flex;
   background-color: $primary-color;
-
+  height: 50px;
   align-content: center;
   justify-content: center;
 }
@@ -12,6 +12,11 @@
   display: flex;
   gap: 20px;
 
+  align-items: center;
+}
+
+.logo {
+  display: flex;
   align-items: center;
 }
 
@@ -29,6 +34,6 @@
   padding-inline: 5px;
 }
 
-.Test {
-  margin-top: 30px;
+active {
+  color: $primary-color;
 }
