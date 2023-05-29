@@ -22,7 +22,7 @@ const ThemeSwitcher = () => {
         type='checkbox'
         onChange={toggleTheme}
         className={styles.toggleThemeButton}
-        defaultChecked={theme === 'dark'}
+        // defaultChecked={theme === 'dark'}
         checked={theme === 'dark'}
       />
       DarkMode
