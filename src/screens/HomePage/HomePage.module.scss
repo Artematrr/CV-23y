@@ -1,0 +1,11 @@
+@import '../../SCSS/variables';
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 720px;
+  height: 550px;
+}
