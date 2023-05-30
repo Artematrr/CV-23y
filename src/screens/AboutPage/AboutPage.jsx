@@ -1,5 +1,11 @@
+import styles from './AboutPage.module.scss'
+
 const AboutPage = () => {
-  return <div>AboutPage</div>
+  return (
+    <div className={styles.container}>
+      <div className={styles.wrapper}>About</div>
+    </div>
+  )
 }
 
 export default AboutPage

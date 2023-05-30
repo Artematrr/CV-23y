@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import styles from './ThemeSwitcher.module.scss'
+import { MdModeNight, MdSunny } from 'react-icons/md'
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(() => {
@@ -19,13 +20,14 @@ const ThemeSwitcher = () => {
   return (
     <span className={styles.toggleThemeContainer} onClick={toggleTheme}>
       <input
+        hidden
         type='checkbox'
         onChange={toggleTheme}
         className={styles.toggleThemeButton}
         // defaultChecked={theme === 'dark'}
         checked={theme === 'dark'}
       />
-      DarkMode
+      {theme === 'light' ? <MdSunny size={24} /> : <MdModeNight size={24} />}
     </span>
   )
 }

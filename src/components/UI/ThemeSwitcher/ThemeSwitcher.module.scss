@@ -3,20 +3,22 @@
 .toggleThemeContainer {
   display: flex;
   color: $light-color;
-  padding-inline: 5px;
-  padding-block: 2px;
+  padding-inline: 10px;
+  padding-block: 10px;
   border-radius: $radius;
   user-select: none;
   &:hover {
     cursor: pointer;
-    background-color: darken($primary-color, 10%);
+    background-color: darken($primary-color, 5%);
   }
 }
 
-.toggleThemeButton {
-  margin-right: 5px;
-  &:hover {
-    cursor: pointer;
-    background-color: darken($primary-color, 10%);
-  }
+// .toggleThemeButton {
+//   margin-right: 5px;
+//   &:hover {
+//     cursor: pointer;
+//     background-color: darken($primary-color, 10%);
+//   }
+// }
+.toggleThemeIcon {
 }
