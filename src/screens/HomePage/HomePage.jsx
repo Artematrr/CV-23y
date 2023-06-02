@@ -4,10 +4,11 @@ const HomePage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quibusdam
-        amet sint veniam? Repellat nemo dolor non quas deleniti magnam molestias
-        est? Doloremque provident mollitia perspiciatis consequuntur laboriosam,
-        natus consequatur!
+        <h1>Welcome to the Home Page!</h1>
+        <p>
+          This is a simple React app that demonstrates how to use React Router
+          to create a simple navigation app.
+        </p>
       </div>
     </div>
   )
