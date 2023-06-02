@@ -27,7 +27,11 @@ const ThemeSwitcher = () => {
         // defaultChecked={theme === 'dark'}
         checked={theme === 'dark'}
       />
-      {theme === 'light' ? <MdSunny size={24} /> : <MdModeNight size={24} />}
+      {theme === 'light' ? (
+        <MdSunny size={24} color='#ffde5c' />
+      ) : (
+        <MdModeNight size={24} color='#fcfdfe' />
+      )}
     </span>
   )
 }
