@@ -9,3 +9,11 @@
   max-width: 720px;
   min-height: calc(100svh - 50px - 50px);
 }
+
+.aboutLink a {
+  color: $dark-color;
+}
+
+[data-theme='dark'] .aboutLink a {
+  color: $light-color;
+}
