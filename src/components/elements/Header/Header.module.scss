@@ -11,7 +11,7 @@
 .navContainer {
   display: flex;
   max-width: 1000px;
-  min-width: 300px;
+  // min-width: 300px;
   gap: 10px;
 
   align-items: center;
@@ -34,4 +34,10 @@
   border-radius: $radius;
   padding-block: 3px;
   padding-inline: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .navContainer {
+    flex-direction: column;
+  }
 }
