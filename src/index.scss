@@ -1,2 +1,6 @@
 @import 'normalize.css';
 @import './SCSS/theme';
+
+.container {
+  background-color: $active-color;
+}
