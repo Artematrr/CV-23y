@@ -3,8 +3,9 @@
 :root {
   --text-color: #{$dark-color};
   --bg-color: #{$light-color};
+  --highlight-color: #{$highlight-color};
 
-  --link_color: #{$light-color};
+  --link-color: #{$light-color};
 }
 
 [data-theme='dark'] {
@@ -19,7 +20,7 @@ body {
 }
 
 a {
-  color: var(--link_color);
+  color: var(--link-color);
   text-decoration: none;
   &:hover {
     opacity: 80%;
@@ -28,4 +29,9 @@ a {
 
 .active {
   color: $active-color;
+}
+
+::selection {
+  color: $light-color;
+  background: var(--highlight-color);
 }
