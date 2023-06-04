@@ -58,6 +58,6 @@ a {
 ::-webkit-scrollbar-thumb {
   background: $highlight-color;
   &:hover {
-    background: $primary-color;
+    background: darken($highlight-color, 10);
   }
 }
