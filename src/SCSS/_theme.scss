@@ -2,13 +2,14 @@
 
 :root {
   --text-color: #{$dark-color};
+  --link-color: #{$dark-color};
   --bg-color: #{$light-color};
   --highlight-color: #{$highlight-color};
-
-  --link-color: #{$light-color};
+  --active-color: #{$active-color};
 }
 
 [data-theme='dark'] {
+  --link-color: #{$light-color};
   --text-color: #{$light-color};
   --bg-color: #{$dark-color};
 }
@@ -19,16 +20,23 @@ body {
   font-family: $font-family;
 }
 
-a {
-  color: var(--link-color);
-  text-decoration: none;
-  &:hover {
-    opacity: 80%;
+nav {
+  a {
+    color: $light-color;
   }
 }
 
-.active {
-  color: $active-color;
+a {
+  color: var(--link-color);
+  text-decoration: none;
+
+  &:hover {
+    opacity: 80%;
+  }
+
+  &.active {
+    color: var(--active-color);
+  }
 }
 
 ::selection {

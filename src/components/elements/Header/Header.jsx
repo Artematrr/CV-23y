@@ -12,6 +12,7 @@ const Header = () => {
           {/* <img src='/src/assets/brand/Logo.png' alt='logo' /> */}
           <span>Сплав Ю</span>
         </NavLink>
+        <NavLink to='/post'>Посты</NavLink>
         <NavLink to='/*'>В оибку</NavLink>
         <NavLink to='/about'>Обо мне</NavLink>
         <input

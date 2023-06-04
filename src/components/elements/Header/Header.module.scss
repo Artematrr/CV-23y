@@ -11,19 +11,16 @@
 .navContainer {
   display: flex;
   max-width: 1000px;
-  // min-width: 300px;
   gap: 10px;
-
   align-items: center;
 }
 
 .logo {
   display: flex;
   align-items: center;
-}
-
-.logo img {
-  max-width: 40px;
+  img {
+    max-width: 40px;
+  }
 }
 
 .search {
