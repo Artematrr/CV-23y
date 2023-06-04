@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import styles from './ThemeSwitcher.module.scss'
 import { MdModeNight, MdSunny } from 'react-icons/md'
+import styles from './ThemeSwitcher.module.scss'
 
 const ThemeSwitcher = () => {
   const [theme, setTheme] = useState(() => {

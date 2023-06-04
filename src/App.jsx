@@ -1,8 +1,6 @@
-import './index.scss'
-
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { Layout } from './components/Layout'
-
+import './index.scss'
 import HomePage from './screens/HomePage/HomePage'
 import AboutPage from './screens/AboutPage/AboutPage'
 import ErrorPage from './screens/ErrorPage/ErrorPage'

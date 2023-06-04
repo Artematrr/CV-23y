@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
-import ThemeSwitcher from '../../UI/ThemeSwitcher/ThemeSwitcher'
-import styles from './Header.module.scss'
 import { MdPolymer } from 'react-icons/md'
+import styles from './Header.module.scss'
+import ThemeSwitcher from '../../UI/ThemeSwitcher/ThemeSwitcher'
 
 const Header = () => {
   return (

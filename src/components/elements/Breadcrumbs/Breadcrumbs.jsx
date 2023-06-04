@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import styles from './Breadcrumbs.module.scss'
 import { MdTurnLeft } from 'react-icons/md'
+import styles from './Breadcrumbs.module.scss'
 
 const Breadcrumbs = () => {
   const navigate = useNavigate()
