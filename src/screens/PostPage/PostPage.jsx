@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import styles from './PostPage.module.scss'
 import { Link } from 'react-router-dom'
+import styles from './PostPage.module.scss'
 
 const PostPage = () => {
   const [post, setPost] = useState([])
