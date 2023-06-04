@@ -1,0 +1,24 @@
+@import '../../../SCSS/variables';
+
+:root {
+  --text-color: #{$dark-color};
+}
+[data-theme='dark'] {
+  --text-color: #{$light-color};
+}
+.container {
+  padding-inline: 10px;
+  border-bottom: 1px solid var(--text-color);
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  &:hover {
+    cursor: pointer;
+    font-style: italic;
+  }
+}
